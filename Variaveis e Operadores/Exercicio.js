@@ -1,10 +1,10 @@
 let precoCombustivel;
 let distancia ;
 let media;
-const carroKM = 12;
+const carroKM = 10;
 
-precoCombustivel = 5.50 ;
-distancia = 220 ;
+precoCombustivel = 5.79;
+distancia = 100 ;
 mediaCombustivel = distancia / carroKM ;
 precoTotalComb = mediaCombustivel * precoCombustivel ;
 
