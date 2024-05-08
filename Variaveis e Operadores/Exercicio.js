@@ -12,8 +12,8 @@ precoTotalComb = mediaCombustivel * precoCombustivel ;
 
 
 console.log("A viajem tem", distancia,"KM, o combustivel está" ,"R$",precoCombustivel, 
-"iremos gastar em combustivel uma média de",mediaCombustivel,
-"por KM, totalizando assim, um total gasto de",precoTotalComb)
+"iremos gastar em combustivel uma média de",mediaCombustivel,"litros",
+"por KM, totalizando assim, um total gasto de",precoTotalComb.toFixed(2))
 
 
 

@@ -7,6 +7,10 @@
 //     console.log('Impar')
 // }
 
+
+// 1 igual(=) atribuição
+// 2 igual(=) igualdade (atribuição) ignora o tipo da variavel 
+// 3 igual(=) igualdedade porem ele verifica o tipo da varialvel 
 const numero = 5;
 const numeroDivisivelPor5= (numero % 5) === 0;
 
