@@ -20,9 +20,9 @@ let media = (nota1 + nota2 + nota3) / 3;
 if (media < 5) {
     classificacao = 'Reprovado';
 } else if (media <= 7) {
-    classificacao = 'Recuperação'
+    classificacao = 'Recuperação';
 } else {
-    classificacao = 'Passou o Semestre'
+    classificacao = 'Passou o Semestre';
 }
 
 console.log('média da nota do aluno é', media.toFixed(2), 'e seu estado é', classificacao)
